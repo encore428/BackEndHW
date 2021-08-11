@@ -11,5 +11,5 @@ request (GET, POST, DELETE, etc…) should be displayed on the screen. Look at a
 documentations online if necessary.
 
 # Submission
-deploy the application with
-- node ./httpServer.js
+deploy the application with--
+node ./httpServer.js
