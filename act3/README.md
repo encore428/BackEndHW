@@ -18,18 +18,18 @@ car and a salary greater than 13000”.
 # Test Results
 The following are the key test results:
 
-   answer   |       profession        | avg_salary |      remarks
-------------+-------------------------+------------+--------------------
- ANSWER 3.1 | Web Developer IV        |      19835 | Top 10 paying jobs
- ANSWER 3.1 | Social Worker           |      19689 | Top 10 paying jobs
- ANSWER 3.1 | Media Manager III       |      18033 | Top 10 paying jobs
- ANSWER 3.1 | Graphic Designer        |      17381 | Top 10 paying jobs
- ANSWER 3.1 | Analyst Programmer      |      15072 | Top 10 paying jobs
- ANSWER 3.1 | Senior Quality Engineer |      14547 | Top 10 paying jobs
- ANSWER 3.1 | Assistant Professor     |      14262 | Top 10 paying jobs
- ANSWER 3.1 | Programmer III          |      14136 | Top 10 paying jobs
- ANSWER 3.1 | Financial Analyst       |      14035 | Top 10 paying jobs
- ANSWER 3.1 | Media Manager I         |      10828 | Top 10 paying jobs
+|   answer   |       profession        | avg_salary |      remarks       |
+|------------|-------------------------|------------|--------------------|
+| ANSWER 3.1 | Web Developer IV        |      19835 | Top 10 paying jobs
+| ANSWER 3.1 | Social Worker           |      19689 | Top 10 paying jobs
+| ANSWER 3.1 | Media Manager III       |      18033 | Top 10 paying jobs
+| ANSWER 3.1 | Graphic Designer        |      17381 | Top 10 paying jobs
+| ANSWER 3.1 | Analyst Programmer      |      15072 | Top 10 paying jobs
+| ANSWER 3.1 | Senior Quality Engineer |      14547 | Top 10 paying jobs
+| ANSWER 3.1 | Assistant Professor     |      14262 | Top 10 paying jobs
+| ANSWER 3.1 | Programmer III          |      14136 | Top 10 paying jobs
+| ANSWER 3.1 | Financial Analyst       |      14035 | Top 10 paying jobs
+| ANSWER 3.1 | Media Manager I         |      10828 | Top 10 paying jobs
 
 
    answer   | count |             remark
