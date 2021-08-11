@@ -36,16 +36,16 @@ The following are the key test results:
 |------------|-------|--------------------------------
 | ANSWER 3.2 |     4 | users have email end with .net
  
-   answer   | count |      remark
-------------+-------+-------------------
- ANSWER 3.3 |    13 | users have no car
+|   answer   | count |      remark
+|------------|-------|-------------------
+| ANSWER 3.3 |    13 | users have no car
 
-   answer   | userid |       name       |           job           | salary |               email               |                   remark
-------------+--------+------------------+-------------------------+--------+-----------------------------------+---------------------------------------------
- ANSWER 3.4 |      1 | Geneva Drakers   | Programmer III          |  14136 | gdrakers0@github.net              | has no email, or has car and salary > 13000
- ANSWER 3.4 |      2 | Margarette Frude | Structural Engineer     |  10527 |                                   | has no email, or has car and salary > 13000
- ANSWER 3.4 |      5 | Darryl Barthropp | Senior Quality Engineer |  14547 |                                   | has no email, or has car and salary > 13000
- ANSWER 3.4 |     10 | Karoly Jellyman  | Financial Analyst       |  16592 | kjellyman9@nationalgeographic.com | has no email, or has car and salary > 13000
- ANSWER 3.4 |     13 | Thomasa Coy      | Assistant Professor     |  14262 |                                   | has no email, or has car and salary > 13000
- ANSWER 3.4 |     14 | Powell Lomasney  | Financial Analyst       |  11477 |                                   | has no email, or has car and salary > 13000
+|   answer   | userid |       name       |           job           | salary |               email               |                   remark
+|------------|--------|------------------|-------------------------|--------|-----------------------------------|---------------------------------------------
+| ANSWER 3.4 |      1 | Geneva Drakers   | Programmer III          |  14136 | gdrakers0@github.net              | has no email, or has car and salary > 13000
+| ANSWER 3.4 |      2 | Margarette Frude | Structural Engineer     |  10527 |                                   | has no email, or has car and salary > 13000
+| ANSWER 3.4 |      5 | Darryl Barthropp | Senior Quality Engineer |  14547 |                                   | has no email, or has car and salary > 13000
+| ANSWER 3.4 |     10 | Karoly Jellyman  | Financial Analyst       |  16592 | kjellyman9@nationalgeographic.com | has no email, or has car and salary > 13000
+| ANSWER 3.4 |     13 | Thomasa Coy      | Assistant Professor     |  14262 |                                   | has no email, or has car and salary > 13000
+| ANSWER 3.4 |     14 | Powell Lomasney  | Financial Analyst       |  11477 |                                   | has no email, or has car and salary > 13000
 
