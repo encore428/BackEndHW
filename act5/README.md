@@ -15,18 +15,18 @@ browser.
 allow a new user to create an account, update or to delete his/her record.
   
 # Submission
-  - The application has these entries points:
+  - The application behaves very much the same as the for Activity 2:
   1. **POST /login?user=xx&pass=xx** to authenticate against static data.
   1. **GET /login**  to log out curent user.
   1. Both the above use **router** auth.js.
   1. **GET /api/user** to list all users.
-  1. **POST /api/user?user=xx** refers to stataic data to list books liked by user.  if user=all, all books  are listed.
+  1. **POST /api/user?user=xx** refers to stataic data to list books liked by user.  if user i sblank, all books are listed.
   1. Both the above use **router** api.js, and they both use **middleware** guardpost.js.
   1. All of the above use **middleware** logger to console log key http request data.
   1. **guardpost.js** checks if there is a logged in user.  If not, the request is rejected.
-  1. **Static data** are hardcoded in library.js. It has two lists: books, and users.
+  1. **Static data** are stored in a database.  You must edit connectionInfo in **api.js** and **auth.js**.  To set-up the tables and data, execute the script **..\static\sql.sql**.
   - To execute:
-  <br>node .\httpServer2.js
+  <br>node .\httpServer5.js
   
   
   
