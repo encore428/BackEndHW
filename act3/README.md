@@ -8,3 +8,8 @@ by ‘ ‘.net
 registered car.
 - Write a SQL query to return the users “not having an email” or “having a
 car and a salary greater than 13000”.
+
+# Submission
+- **Act3.sql** is the main script.  it drop/recreate the requires tables, and import test data.  It has the required sql statements.  Before the final answers, there are sql statement so show partial answers to make the presentation clearer.
+- **payroll.data** has insert statements to load data to *payroll** table.
+- **regist.data** has insert statements to load data to **regist** table.
