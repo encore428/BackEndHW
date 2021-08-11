@@ -32,9 +32,9 @@ The following are the key test results:
 | ANSWER 3.1 | Media Manager I         |      10828 | Top 10 paying jobs
 
 
-   answer   | count |             remark
-------------+-------+--------------------------------
- ANSWER 3.2 |     4 | users have email end with .net
+|   answer   | count |             remark
+|------------+-------+--------------------------------
+| ANSWER 3.2 |     4 | users have email end with .net
  
    answer   | count |      remark
 ------------+-------+-------------------
