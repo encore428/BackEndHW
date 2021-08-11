@@ -12,4 +12,4 @@ documentations online if necessary.
 
 # Submission
 deploy the application with
-- node 
+- node ./httpServer.js
