@@ -33,7 +33,7 @@ The following are the key test results:
 
 
 |   answer   | count |             remark
-|------------+-------+--------------------------------
+|------------|-------|--------------------------------
 | ANSWER 3.2 |     4 | users have email end with .net
  
    answer   | count |      remark
