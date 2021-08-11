@@ -10,7 +10,7 @@ registered car.
 car and a salary greater than 13000”.
 
 # Submission
-- **Act3.sql** is the main script.  it drop/recreate the requires tables, and import test data.  It has the required sql statements.  Before the final answers, there are sql statement so show partial answers to make the presentation clearer.
+- **Act3.sql** is the main script.  it drop/recreate the required tables, and import test data.  It has the required sql statements.  Before the final answers, there are sql statements to show partial answers to make the presentation clearer.
 - **payroll.data** has insert statements to load data to **payroll** table.
 - **regist.data** has insert statements to load data to **regist** table.
 - **Act3 result.txt** has the test results.
