@@ -1,0 +1,96 @@
+test1=> \i Act4.sql
+DROP TABLE
+CREATE TABLE
+INSERT 0 1
+... 379 lines imitted ...
+INSERT 0 1
+CREATE TABLE
+INSERT 0 370
+             topic              |    remark     | user1 | user2
+--------------------------------+---------------+-------+-------
+ Aenean auctor gravida sem      | discussed by  | alice | bob
+ Cras pellentesque volutpat dui | discussed by  | alice | bob
+ Fusce consequat                | discussed by  | alice | bob
+ Mauris sit amet eros           | discussed by  | alice | bob
+ Nulla mollis molestie lorem    | discussed by  | alice | bob
+ Suspendisse potenti            | discussed by  | alice | bob
+(6 rows)
+
+
+            topic            |    remark     | user1 | user2
+-----------------------------+---------------+-------+-------
+ Nulla mollis molestie lorem | discussed by  | alice | chuck
+(1 row)
+
+
+   answer   |             topic              |                         remark
+------------+--------------------------------+---------------------------------------------------------
+ ANSWER 4.1 | Aenean auctor gravida sem      | discussed by alice+bob pair but not by alice+chuck pair
+ ANSWER 4.1 | Cras pellentesque volutpat dui | discussed by alice+bob pair but not by alice+chuck pair
+ ANSWER 4.1 | Fusce consequat                | discussed by alice+bob pair but not by alice+chuck pair
+ ANSWER 4.1 | Mauris sit amet eros           | discussed by alice+bob pair but not by alice+chuck pair
+ ANSWER 4.1 | Suspendisse potenti            | discussed by alice+bob pair but not by alice+chuck pair
+(5 rows)
+
+
+                       topic                        | pairs |           remark
+----------------------------------------------------+-------+-----------------------------
+ Vestibulum sed magna at nunc commodo placerat      |     2 | pairs of users discuss this
+ Suspendisse ornare consequat lectus                |     4 | pairs of users discuss this
+ Vivamus in felis eu sapien cursus vestibulum       |     4 | pairs of users discuss this
+ Praesent blandit                                   |     7 | pairs of users discuss this
+ Nulla ac enim                                      |     9 | pairs of users discuss this
+ Phasellus in felis                                 |    10 | pairs of users discuss this
+ Vivamus tortor                                     |    11 | pairs of users discuss this
+ Nullam varius                                      |    11 | pairs of users discuss this
+ Aliquam quis turpis eget elit sodales scelerisque  |    12 | pairs of users discuss this
+ Proin at turpis a pede posuere nonummy             |    13 | pairs of users discuss this
+ Nulla mollis molestie lorem                        |    14 | pairs of users discuss this
+ Aenean auctor gravida sem                          |    17 | pairs of users discuss this
+ Vestibulum ac est lacinia nisi venenatis tristique |    17 | pairs of users discuss this
+ Nunc rhoncus dui vel sem                           |    17 | pairs of users discuss this
+ Nulla tempus                                       |    19 | pairs of users discuss this
+ Suspendisse potenti                                |    19 | pairs of users discuss this
+ Donec quis orci eget orci vehicula condimentum     |    21 | pairs of users discuss this
+ Quisque porta volutpat erat                        |    23 | pairs of users discuss this
+ Duis bibendum                                      |    23 | pairs of users discuss this
+ Fusce consequat                                    |    24 | pairs of users discuss this
+ Cras pellentesque volutpat dui                     |    24 | pairs of users discuss this
+ In quis justo                                      |    31 | pairs of users discuss this
+ Mauris sit amet eros                               |    38 | pairs of users discuss this
+(23 rows)
+
+
+                       topic                        | pairs |       remark
+----------------------------------------------------+-------+---------------------
+ Vivamus tortor                                     |    11 | pairs which is > 10
+ Nullam varius                                      |    11 | pairs which is > 10
+ Aliquam quis turpis eget elit sodales scelerisque  |    12 | pairs which is > 10
+ Proin at turpis a pede posuere nonummy             |    13 | pairs which is > 10
+ Nulla mollis molestie lorem                        |    14 | pairs which is > 10
+ Aenean auctor gravida sem                          |    17 | pairs which is > 10
+ Vestibulum ac est lacinia nisi venenatis tristique |    17 | pairs which is > 10
+ Nunc rhoncus dui vel sem                           |    17 | pairs which is > 10
+ Nulla tempus                                       |    19 | pairs which is > 10
+ Suspendisse potenti                                |    19 | pairs which is > 10
+ Donec quis orci eget orci vehicula condimentum     |    21 | pairs which is > 10
+ Duis bibendum                                      |    23 | pairs which is > 10
+ Quisque porta volutpat erat                        |    23 | pairs which is > 10
+ Fusce consequat                                    |    24 | pairs which is > 10
+ Cras pellentesque volutpat dui                     |    24 | pairs which is > 10
+ In quis justo                                      |    31 | pairs which is > 10
+ Mauris sit amet eros                               |    38 | pairs which is > 10
+(17 rows)
+
+
+CREATE TABLE
+INSERT 0 17
+   answer   | count |                          remark
+------------+-------+-----------------------------------------------------------
+ ANSWER 4.2 |    17 | topics have been discussed by more than 10 pairs of users
+(1 row)
+
+
+DROP TABLE
+DROP TABLE
+test1=>

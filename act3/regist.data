@@ -1,0 +1,10 @@
+insert into regist (userid, car) values (1, 'Vigor');
+insert into regist (userid, car) values (2, 'Aurora');
+insert into regist (userid, car) values (3, 'Continental');
+insert into regist (userid, car) values (3, '1500');
+insert into regist (userid, car) values (5, 'LX');
+insert into regist (userid, car) values (6, 'Legacy');
+insert into regist (userid, car) values (2, '6 Series');
+insert into regist (userid, car) values (3, 'Countach');
+insert into regist (userid, car) values (9, 'C8 Spyder');
+insert into regist (userid, car) values (10, 'Pilot');

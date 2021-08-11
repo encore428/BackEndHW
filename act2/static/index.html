@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Day 1 exercise 2</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <h5>Node.js Exercise</h5>
+        <div>
+          <a href="index.html">regular </a>
+          <a href="javascript.html">javascript </a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <form action="/login" method="POST">
+        <h3>Login</h3>
+        <div class="form-row">
+          <label for="name"> enter name</label>
+          <input type="text" name="name" id="name" placeholder='piotr' autocomplete="false" />
+          <label for="pass"> enter password</label>
+          <input type="password" name="pass" id="pass" placeholder='sing' autocomplete="false" />
+        </div>
+        <button type="submit" class="block">Login</button>
+      </form>
+      <form action="/login" method="GET">
+        <div class="form-row">
+           <button class="block">Log out</button>
+        </div>
+      </form>
+      <form action="/api/user" method="GET">
+        <div class="form-row">
+          <button class="block">List all users</button>
+        </div>
+      </form>
+      <form action="/api/user" method="POST">
+        <h3>Show book this user like</h3>
+        <div class="form-row">
+          <label for="name"> enter name </label>
+          <input type="text" name="name" id="name" placeholder='all or Naipeng' autocomplete="false" />
+        </div>
+        <button type="submit" class="block">Retrieve Books</button>
+      </form>
+    </main>
+  </body>
+</html>
