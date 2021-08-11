@@ -10,14 +10,15 @@ and modular as possible.
   
 # Submission
   - The application has these entries points:
-  1. **POST /login?user=xx&pass=xx** to authenticate against data as library.users.
+  1. **POST /login?user=xx&pass=xx** to authenticate against static data.
   1. **GET /login**  to log out curent user.
   1. Both the above use **router** auth.js.
   1. **GET /api/user** to list all users.
-  1. **POST /api/user?user=xx** to list books liked by user.  if user=all, all books are listed.  Books are from library.books.
+  1. **POST /api/user?user=xx** refers to stataic data to list books liked by user.  if user=all, all books  are listed.
   1. Both the above use **router** api.js, and they both use **middleware ** guardpost.js.
   1. All of the above use **middleware** logger to console log key http request data.
   1. **guardpost.js** checks if there is a logged in user.  If not, the request is rejected.
+  1. **Static data** are hardcoded in library.js. It has two lists: books, and users.
   - To execute:
   <br>node .\httpServer2.js
   
