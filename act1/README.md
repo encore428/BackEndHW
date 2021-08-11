@@ -9,3 +9,7 @@ error message with a back button bringing the user to the home page.
 - On the server side, whenever the user hit the server, a message containing the type of the
 request (GET, POST, DELETE, etc…) should be displayed on the screen. Look at any Node.js
 documentations online if necessary.
+
+# Submission
+deploy the application with
+- node 
