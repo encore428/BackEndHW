@@ -20,7 +20,7 @@ allow a new user to create an account, update or to delete his/her record.
   1. **GET /login**  to log out curent user.
   1. Both the above use **router** auth.js.
   1. **GET /api/user** to list all users.
-  1. **POST /api/user?user=xx** refers to stataic data to list books liked by user.  if user i sblank, all books are listed.
+  1. **POST /api/user?user=xx** refers to stataic data to list books liked by user.  if user is blank, all books are listed.
   1. Both the above use **router** api.js, and they both use **middleware** guardpost.js.
   1. All of the above use **middleware** logger to console log key http request data.
   1. **guardpost.js** checks if there is a logged in user.  If not, the request is rejected.
