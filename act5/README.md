@@ -15,7 +15,7 @@ browser.
 allow a new user to create an account, update or to delete his/her record.
   
 # Submission
-  - The application behaves very much the same as the for Activity 2:
+  The application behaves very much the same as the for Activity 2:
   1. **POST /login?user=xx&pass=xx** to authenticate against static data.
   1. **GET /login**  to log out curent user.
   1. Both the above use **router** auth.js.
