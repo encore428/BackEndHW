@@ -8,4 +8,7 @@ provide something” message.
 - Make use of routers in order to make the code as clean
 and modular as possible.
   
-  # Submission
+# Submission
+  - The application has these entries points:
+  1. **POST /login?user=xx&pass=xx** use router auth to authenticate against data as library.users.
+  
