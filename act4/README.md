@@ -4,7 +4,7 @@ Given the following relation that captures topics discussed by various users.
 <br>where user1 always preceedes user2 in alphabetical order.
 - Write a SQL query that returns all topics discussed by Alice and Bob, but not discussed by Alice and Chuck.  (Hint: you may want to use the **not in** syntac in SQL,
 i.e., select a from R where a not in (select a from S))
-- Givenm the Discussion relation in the previous question.  Write SQL query that returns the number of topics discussed by more than 10 pairs of users.
+- Given the Discussion relation in the previous question.  Write SQL query that returns the number of topics discussed by more than 10 pairs of users.
 (Hint: you may want to create a temporary table.)
  
 
