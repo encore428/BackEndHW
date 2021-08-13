@@ -18,6 +18,8 @@ car and a salary greater than 13000”.
 # Test Results
 The following are the key test results:
 
+
+|--------------------------------------------|
 |SELECT 'ANSWER 3.1'         AS answer,      |
 |       job                  AS profession,  |
 |       ROUND(avg(salary))   AS avg_salary,  |
