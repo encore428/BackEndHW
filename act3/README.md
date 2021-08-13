@@ -42,6 +42,7 @@ The following are the key test results:
 | ANSWER 3.1 | Financial Analyst       |      14035 | Top 10 paying jobs
 | ANSWER 3.1 | Media Manager I         |      10828 | Top 10 paying jobs
 
+|--------------------------------------------------|
 |SELECT 'ANSWER 3.2'                     AS answer,
 |       COUNT(*),
 |       'users have email end with .net' AS remark
