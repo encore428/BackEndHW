@@ -19,15 +19,16 @@ car and a salary greater than 13000”.
 The following are the key test results:
 
 
-|--------------------------------------------|
-|SELECT 'ANSWER 3.1'         AS answer,
-|       job                  AS profession,
-|       ROUND(avg(salary))   AS avg_salary,
-|	   'Top 10 paying jobs' AS remarks
-|  FROM payroll
-| GROUP BY job
-| ORDER BY avg_salary DESC
-| LIMIT 10;
+...
+SELECT 'ANSWER 3.1'         AS answer,
+       job                  AS profession,
+       ROUND(avg(salary))   AS avg_salary,
+	   'Top 10 paying jobs' AS remarks
+  FROM payroll
+ GROUP BY job
+ ORDER BY avg_salary DESC
+ LIMIT 10;
+...
 
 |   answer   |       profession        | avg_salary |      remarks       |
 |------------|-------------------------|------------|--------------------|
