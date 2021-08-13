@@ -38,10 +38,22 @@ SELECT 'ANSWER 4.1' AS answer,
 | ANSWER 4.1 | Suspendisse potenti            | discussed by alice+bob pair but not by alice+chuck pair
 
 ```
+CREATE TEMP TABLE topics(
+    topic VARCHAR(50),
+	pairs INTEGER);
+
+INSERT INTO topics
+SELECT topic, COUNT(*)
+  FROM disc
+ GROUP BY topic
+HAVING COUNT(*) > 10;
+
 SELECT 'ANSWER 4.2' AS answer,
        COUNT(*),
        'topics have been discussed by more than 10 pairs of users' as remark
   FROM topics;
+  
+DROP TABLE topics;
 ```
 |   answer   | count |                          remark
 |------------|-------|-----------------------------------------------------------
