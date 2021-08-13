@@ -17,6 +17,18 @@ Before the final answers, there are sql statements to show partial answers to ma
 # Test Results
 The following are the key test results:
 
+```
+SELECT 'ANSWER 4.1' AS answer,
+       topic, 
+       'discussed by alice+bob pair but not by alice+chuck pair' as remark
+  FROM Discussion
+ WHERE user1 = 'alice'
+   AND user2 = 'bob'
+   AND topic NOT IN (SELECT topic
+                       FROM Discussion
+                      WHERE user1 = 'alice'
+                        AND user2 = 'chuck');
+```
 |   answer   |             topic              |                         remark
 |------------|--------------------------------|---------------------------------------------------------
 | ANSWER 4.1 | Aenean auctor gravida sem      | discussed by alice+bob pair but not by alice+chuck pair
@@ -25,7 +37,12 @@ The following are the key test results:
 | ANSWER 4.1 | Mauris sit amet eros           | discussed by alice+bob pair but not by alice+chuck pair
 | ANSWER 4.1 | Suspendisse potenti            | discussed by alice+bob pair but not by alice+chuck pair
 
-
+```
+SELECT 'ANSWER 4.2' AS answer,
+       COUNT(*),
+       'topics have been discussed by more than 10 pairs of users' as remark
+  FROM topics;
+```
 |   answer   | count |                          remark
 |------------|-------|-----------------------------------------------------------
 | ANSWER 4.2 |    17 | topics have been discussed by more than 10 pairs of users
