@@ -18,6 +18,15 @@ car and a salary greater than 13000”.
 # Test Results
 The following are the key test results:
 
+|SELECT 'ANSWER 3.1'         AS answer,
+|       job                  AS profession, 
+|       ROUND(avg(salary))   AS avg_salary,
+|	   'Top 10 paying jobs' AS remarks
+|  FROM payroll
+| GROUP BY job
+| ORDER BY avg_salary DESC
+| LIMIT 10;
+
 |   answer   |       profession        | avg_salary |      remarks       |
 |------------|-------------------------|------------|--------------------|
 | ANSWER 3.1 | Web Developer IV        |      19835 | Top 10 paying jobs
@@ -31,14 +40,37 @@ The following are the key test results:
 | ANSWER 3.1 | Financial Analyst       |      14035 | Top 10 paying jobs
 | ANSWER 3.1 | Media Manager I         |      10828 | Top 10 paying jobs
 
+|SELECT 'ANSWER 3.2'                     AS answer,
+|       COUNT(*),
+|       'users have email end with .net' AS remark
+|  FROM payroll
+| WHERE email LIKE '%.net';
 
 |   answer   | count |             remark
 |------------|-------|--------------------------------
 | ANSWER 3.2 |     4 | users have email end with .net
+
+|SELECT 'ANSWER 3.3'                     AS answer,
+|       COUNT(*),
+|       'users have no car' AS remark
+|  FROM payroll
+|  LEFT
+|  JOIN regist
+| USING (userid)
+| WHERE regist.userid IS NULL;
  
 |   answer   | count |      remark
 |------------|-------|-------------------
 | ANSWER 3.3 |    13 | users have no car
+
+|SELECT 'ANSWER 3.4'                                  AS answer,
+|       *,
+|       'has no email, or has car and salary > 13000' as remark
+|  FROM payroll
+| WHERE payroll.email = ''  OR
+|       salary > 13000
+|   AND userid IN (SELECT userid
+|                    FROM regist);
 
 |   answer   | userid |       name       |           job           | salary |               email               |                   remark
 |------------|--------|------------------|-------------------------|--------|-----------------------------------|---------------------------------------------
