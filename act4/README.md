@@ -20,7 +20,7 @@ The following are the key test results:
 ```sql
 SELECT 'ANSWER 4.1' AS answer,
        topic, 
-       'discussed by alice+bob pair but not by alice+chuck pair' as remark
+       'discussed by alice+bob pair but not by alice+chuck pair' AS remark
   FROM Discussion
  WHERE user1 = 'alice'
    AND user2 = 'bob'
