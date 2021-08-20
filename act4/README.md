@@ -17,7 +17,7 @@ Before the final answers, there are sql statements to show partial answers to ma
 # Test Results
 The following are the key test results:
 
-```
+```sql
 SELECT 'ANSWER 4.1' AS answer,
        topic, 
        'discussed by alice+bob pair but not by alice+chuck pair' as remark
