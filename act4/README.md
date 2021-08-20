@@ -40,7 +40,7 @@ SELECT 'ANSWER 4.1' AS answer,
 ```sql
 CREATE TEMP TABLE topics(
     topic VARCHAR(50),
-	pairs INTEGER);
+    pairs INTEGER);
 
 INSERT INTO topics
 SELECT topic, COUNT(*)
