@@ -37,7 +37,7 @@ SELECT 'ANSWER 4.1' AS answer,
 | ANSWER 4.1 | Mauris sit amet eros           | discussed by alice+bob pair but not by alice+chuck pair
 | ANSWER 4.1 | Suspendisse potenti            | discussed by alice+bob pair but not by alice+chuck pair
 
-```
+```sql
 CREATE TEMP TABLE topics(
     topic VARCHAR(50),
 	pairs INTEGER);
