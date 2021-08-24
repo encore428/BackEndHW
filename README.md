@@ -9,6 +9,6 @@
 - **act2** : Day 1 activity 2 - homework
 - **act3** : Day 2 activity 3 - SQL Queries
 - **act4** : Day 2 activity 4 - More SQL Queries
-- **act5** : Day 2 activity 5 - homework: A simple MVC
+- [**act5**](act5/README.md) : Day 2 activity 5 - homework: A simple MVC
 
 [a relative link](act5/README.md)
