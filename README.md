@@ -8,4 +8,3 @@
 - [**act3**](act3/README.md) : Day 2 activity 3 - SQL Queries
 - [**act4**](act4/README.md) : Day 2 activity 4 - More SQL Queries
 - [**act5**](act5/README.md) : Day 2 activity 5 - homework: A simple MVC
-
