@@ -8,6 +8,6 @@
 - [**act3**](act3/README.md) : Day 2 (Aug 10) activity 3 - SQL Queries
 - [**act4**](act4/README.md) : Day 2 (Aug 10) activity 4 - More SQL Queries
 - [**act5**](act5/README.md) : Day 2 (Aug 10) activity 5 - homework: A simple MVC
-- Day 3 (Aug 17)
+- [**Day 3 (Aug 17) - home work**](https://github.com/encore428/backend-development/)
 - Day 4 (Aug 24) Homework
 - Capston project
