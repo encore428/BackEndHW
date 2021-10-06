@@ -22,5 +22,6 @@
 **Day 4 (Aug 24)**
 - [**home work**](https://github.com/encore428/backend-development/) **(not started)**
 
-- Capston project  **(in progress, not published)**
+**Capston project**
+- (in progress, not published)
 
