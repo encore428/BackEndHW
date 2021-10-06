@@ -3,8 +3,8 @@
 <img src="./slide.png" />
 
 - R X S : R cross-join S, Size of results = 5 x 5 = 25
-- R <img src="./NJ.bmp" /> S: R natural-join S, Size of results = 5 = { [A:1, B:x, C:0, D:3], [A:3, B:x, C:0, D:3], [A:2, B:y, C:2, D:1], [A:2, B:y, C:3, D:3], [A:2, B:y, C:2, D:0] }
-- R <img src="./NJ.bmp" />A=D S: R natural-join S with condition A=D, Size of results = 1 = { [A:3, B:x, C:0, D:3] }
+- R <img src="./NJ.bmp" /> S: R natural-join S, Size of results = 5 : { [A:1, B:x, C:0, D:3], [A:3, B:x, C:0, D:3], [A:2, B:y, C:2, D:1], [A:2, B:y, C:3, D:3], [A:2, B:y, C:2, D:0] }
+- R <img src="./NJ.bmp" />A=D S: R natural-join S with condition A=D, Size of results = 1 : { [A:3, B:x, C:0, D:3] }
 
 - σc<3(S) => select * from S where C < 3 => { [B:x, C:0, D:3], [B:y, C:2, D:1], [B:y, C:2, D:0] }
 
