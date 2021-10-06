@@ -23,6 +23,7 @@
                 i.e. select all Customers who have never placed an order with quantity less than 100
 
 ==> select city from **R**
+
 i.e. For all customers who have never placed an order of qty less than 100, find the cities they are in.
 
 Note: The list of cities returned includes customers of two extremes, those who placed large orders (quantiy >= 100), as well
