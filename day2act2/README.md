@@ -10,7 +10,7 @@
                 = select * from Orders where qnt < 100
 	            i.e. pick only orders with quantity < 100
 
-==> π city(Customer<img src="./NJ.bmp" />(**Q**)
+==> π city(Customer<img src="./NJ.bmp" />**Q**)
 
         where Q = π cid(Customer)- π cid(P)) 
                 = select cid from Customer where cid not in (select cid from P)
@@ -18,8 +18,8 @@
 
 ==> π city(**R**)
 
-        where R = Customer<img src="./NJ.bmp" />(**Q**)
-		        = Customer natural join **Q**
+        where R = Customer|><|(Q)
+		        = Customer natural join Q
 				i.e. select all Customers who have never placed an order with quantity less than 100
 
 ==> select city from **R**
