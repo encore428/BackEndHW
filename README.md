@@ -17,11 +17,11 @@
 
 
 **Day 3 (Aug 17)**
-- [**home work**](https://github.com/encore428/backend-development/tree/master/5e-swagger) **(completed)**
+- [**home work**](./5e-swagger): Extend a CRUD app **(completed)**
 
 **Day 4 (Aug 24)**
-- [**home work**](https://github.com/encore428/backend-development/) **(not started)**
+- [**home work**](./websocket): Create a web socket heartbeat **(completed)**
 
 **Capston project**
-- (https://github.com/encore428/BECapstone) **(In-progress, deployed to heroku)**
+- (https://github.com/encore428/BECapstone) **(completed)**
 
