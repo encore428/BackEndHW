@@ -23,5 +23,5 @@
 - [**home work**](./websocket): Create a web socket heartbeat **(completed)**
 
 **Capston project**
-- (https://github.com/encore428/BECapstone) **(completed)**
+- [**Todo API**](https://github.com/encore428/BECapstone) **(completed)**
 
